@@ -1,0 +1,90 @@
+{
+  "categories": [
+    { "id": 1, "categoryName": "Electronics"},
+    { "id": 2, "categoryName": "Men"},
+    { "id": 3, "categoryName": "Women"},
+    { "id": 4, "categoryName": "Home & Furniture"},
+    { "id": 5, "categoryName": "Baby & Kids"}
+  ],
+
+
+  "product": [
+    {
+      "id": 1,
+      "productName": "shirt",
+      "categorie_id": 1,
+      "description":"description here",
+      "price":300,
+      "is_available":true,
+      "product_image":"http://localhost:4200/assets/a.jpg",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 2,
+      "productName": "casual shirt",
+      "categorie_id": 5,
+      "description":"description here",
+      "price":300,
+      "is_available":true,
+      "product_image":"http://localhost:4200/assets/b.jpg",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 3,
+      "productName": "casual shirt",
+      "categorie_id": 2,
+      "description":"description here",
+      "price":300,
+      "is_available":true,
+      "product_image":"http://localhost:4200/assets/b.jpg",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 4,
+      "productName": "party shirt",
+      "categorie_id": 3,
+      "description":"description here",
+      "price":300,
+      "is_available":true,
+      "product_image":"http://localhost:4200/assets/c.jpg",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 5,
+      "productName": "party shirt",
+      "categorie_id": 4,
+      "description":"description here",
+      "price":300,
+      "is_available":true,
+      "product_image":"http://localhost:4200/assets/c.jpg",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    }
+  ],
+
+
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

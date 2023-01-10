@@ -1,0 +1,8 @@
+ <!-- <div class="list-group py-5"> 
+     <h1 *ngFor="let c of categoryList">{{c.categoryName}}</h1>
+     
+</div>  -->
+<h2>Product Category</h2><hr>
+<div  *ngFor="let c of categoryList" class="form-control text-center bg-info">
+     <a href="category/{{c.id}}" class="text-decoration-none text-black">{{c.categoryName}}</a>
+</div>
