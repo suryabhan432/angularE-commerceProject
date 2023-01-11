@@ -1,10 +1,10 @@
 {
   "categories": [
-    { "id": 1, "categoryName": "Electronics"},
-    { "id": 2, "categoryName": "Men"},
-    { "id": 3, "categoryName": "Women"},
-    { "id": 4, "categoryName": "Home & Furniture"},
-    { "id": 5, "categoryName": "Baby & Kids"}
+    { "id": 1, "categoryName": "Electronics","categorie_id": 1},
+    { "id": 2, "categoryName": "Men","categorie_id": 2},
+    { "id": 3, "categoryName": "Women","categorie_id": 3},
+    { "id": 4, "categoryName": "Home & Furniture","categorie_id": 4},
+    { "id": 5, "categoryName": "Baby & Kids","categorie_id": 5}
   ],
 
 
@@ -12,7 +12,7 @@
     {
       "id": 1,
       "productName": "shirt",
-      "categorie_id": 1,
+      "categoryId": 4,
       "description":"description here",
       "price":300,
       "is_available":true,
@@ -25,7 +25,7 @@
     {
       "id": 2,
       "productName": "casual shirt",
-      "categorie_id": 5,
+      "categoryId": 5,
       "description":"description here",
       "price":300,
       "is_available":true,
@@ -37,8 +37,8 @@
     },
     {
       "id": 3,
-      "productName": "casual shirt",
-      "categorie_id": 2,
+      "productName": "casual shirt surya",
+      "categoryId": 2,
       "description":"description here",
       "price":300,
       "is_available":true,
@@ -51,7 +51,7 @@
     {
       "id": 4,
       "productName": "party shirt",
-      "categorie_id": 3,
+      "categoryId": 3,
       "description":"description here",
       "price":300,
       "is_available":true,
@@ -64,11 +64,24 @@
     {
       "id": 5,
       "productName": "party shirt",
-      "categorie_id": 4,
+      "categoryId": 4,
       "description":"description here",
       "price":300,
       "is_available":true,
       "product_image":"http://localhost:4200/assets/c.jpg",
+      "rating":4,
+      "review":150,
+      "vendor_name":"abc shop",
+      "waranty":1
+    },
+    {
+      "id": 6,
+      "productName": "dance shirt",
+      "categoryId": 1,
+      "description":"description here",
+      "price":300,
+      "is_available":true,
+      "product_image":"http://localhost:4200/assets/d.jpg",
       "rating":4,
       "review":150,
       "vendor_name":"abc shop",

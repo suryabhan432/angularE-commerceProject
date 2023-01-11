@@ -5,7 +5,7 @@ export interface ProductInterface {
     description:string;
     rating:string;
     price:number;
-    productImg:string;
+    product_image:string;
     isAvailable:boolean;
     color:string;
     review:number;

@@ -14,7 +14,7 @@ export class ViewAllProductComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this._getProduct.viewProduct().subscribe(productData=>this.viewAllProduct=productData);
+    this._getProduct.viewAllProducts().subscribe(productData=>this.viewAllProduct=productData);
   }
 
 }
