@@ -1,95 +1,107 @@
 {
   "categories": [
-    { "id": 1, "categoryName": "Electronics","categorie_id": 1},
-    { "id": 2, "categoryName": "Men","categorie_id": 2},
-    { "id": 3, "categoryName": "Women","categorie_id": 3},
-    { "id": 4, "categoryName": "Home & Furniture","categorie_id": 4},
-    { "id": 5, "categoryName": "Baby & Kids","categorie_id": 5}
+    {
+      "id": 1,
+      "categoryName": "Electronics",
+      "categorie_id": 1
+    },
+    {
+      "id": 2,
+      "categoryName": "Men",
+      "categorie_id": 2
+    },
+    {
+      "id": 3,
+      "categoryName": "Women",
+      "categorie_id": 3
+    },
+    {
+      "id": 4,
+      "categoryName": "Home & Furniture",
+      "categorie_id": 4
+    },
+    {
+      "id": 5,
+      "categoryName": "Baby & Kids",
+      "categorie_id": 5
+    }
   ],
-
-
   "product": [
     {
       "id": 1,
-      "productName": "shirt",
       "categoryId": 4,
-      "description":"description here",
-      "price":300,
-      "is_available":true,
-      "product_image":"http://localhost:4200/assets/a.jpg",
-      "rating":4,
-      "review":150,
-      "vendor_name":"abc shop",
-      "waranty":1
+      "productName": "shirt for men",
+      "description": "description here",
+      "price": 300,
+      "product_image": "http://localhost:4200/assets/a.jpg"
     },
     {
       "id": 2,
       "productName": "casual shirt",
       "categoryId": 5,
-      "description":"description here",
-      "price":300,
-      "is_available":true,
-      "product_image":"http://localhost:4200/assets/b.jpg",
-      "rating":4,
-      "review":150,
-      "vendor_name":"abc shop",
-      "waranty":1
+      "description": "description here",
+      "price": 300,
+      "is_available": true,
+      "product_image": "http://localhost:4200/assets/b.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
     },
     {
       "id": 3,
       "productName": "casual shirt surya",
       "categoryId": 2,
-      "description":"description here",
-      "price":300,
-      "is_available":true,
-      "product_image":"http://localhost:4200/assets/b.jpg",
-      "rating":4,
-      "review":150,
-      "vendor_name":"abc shop",
-      "waranty":1
+      "description": "description here",
+      "price": 300,
+      "is_available": true,
+      "product_image": "http://localhost:4200/assets/c.jpg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
     },
     {
       "id": 4,
-      "productName": "party shirt",
       "categoryId": 3,
-      "description":"description here",
-      "price":300,
-      "is_available":true,
-      "product_image":"http://localhost:4200/assets/c.jpg",
-      "rating":4,
-      "review":150,
-      "vendor_name":"abc shop",
-      "waranty":1
+      "productName": "shirt for women",
+      "description": "specialy ladies shirt",
+      "price": 250,
+      "product_image": "http://localhost:4200/assets/c.jpg"
     },
     {
       "id": 5,
-      "productName": "party shirt",
-      "categoryId": 4,
-      "description":"description here",
-      "price":300,
-      "is_available":true,
-      "product_image":"http://localhost:4200/assets/c.jpg",
-      "rating":4,
-      "review":150,
-      "vendor_name":"abc shop",
-      "waranty":1
+      "categoryId": 2,
+      "productName": "party shirt for men",
+      "description": "this shirt you can wear when you ready for party",
+      "price": 400,
+      "product_image": "http://localhost:4200/assets/d.jpg"
     },
     {
       "id": 6,
-      "productName": "dance shirt",
       "categoryId": 1,
-      "description":"description here",
-      "price":300,
-      "is_available":true,
-      "product_image":"http://localhost:4200/assets/d.jpg",
-      "rating":4,
-      "review":150,
-      "vendor_name":"abc shop",
-      "waranty":1
+      "productName": "dance shirtsssssssss",
+      "description": "description here",
+      "price": 300,
+      "product_image": "http://localhost:4200/assets/e.jpg"
+    },
+    {
+      "id": 80,
+      "categoryId": null,
+      "productName": "mobile phone",
+      "description": "mobile lelo",
+      "price": 3434,
+      "product_image": "http://localhost:4200/assets/mobile.jpg"
+    },
+    {
+      "id": 123,
+      "categoryId": 5,
+      "productName": "kids toy child",
+      "description": "baby kids toy for playing",
+      "price": 100,
+      "product_image": "http://localhost:4200/assets/Lb2VrF.jpg"
     }
   ],
-
-
   "comments": [
     {
       "id": 1,

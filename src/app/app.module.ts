@@ -18,7 +18,7 @@ import { ProductService } from './products/product.service';
     AppRoutingModule,
     HttpClientModule,
     OrdersModule,
-    SiteLayoutModule,
+    SiteLayoutModule
    
     
   ],

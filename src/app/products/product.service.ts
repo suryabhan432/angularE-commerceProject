@@ -12,13 +12,13 @@ export class ProductService {
 
   constructor(private http:HttpClient) { }
 
-  // createProduct(productBody):Observable<ProductInterface>{
-  //   const baseUrl = "http://localhost:3000/products";
-  //   return this.httpClient.post<ProductInterface>(baseUrl,productBody);
-  // }
+  createProduct(productBody):Observable<any>{
+    const baseUrl = "http://localhost:3000/product";
+    return this.http.post(baseUrl,productBody);
+  }
 
-  viewProduct():Observable<any>{
-    const baseUrl = "http://localhost:3000/product"
+  viewProduct(item):Observable<any>{
+    const baseUrl = "http://localhost:3000/product/"+item
     return this.http.get(baseUrl);
   }
 
@@ -27,10 +27,10 @@ export class ProductService {
     return this.http.get(baseUrl);
   }
 
-  // updateProduct(productId,productBody):Observable<ProductInterface>{
-  //   const baseUrl = "http://localhost:3000/product"+productId;
-  //   return this.httpClient.put<ProductInterface>(baseUrl,productBody);
-  // }
+  updateProduct(productId,productBody):Observable<ProductInterface>{
+    const baseUrl = "http://localhost:3000/product/"+productId;
+    return this.http.put<ProductInterface>(baseUrl,productBody);
+  }
 
   // deleteProduct(productId):Observable<ProductInterface>{
   //   const baseUrl = "http://localhost:3000/product"+productId;

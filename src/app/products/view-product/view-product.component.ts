@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { pluck } from "rxjs/operators";
+// import { pluck } from "rxjs/operators";
 import { ProductService } from '../product.service';
 
 @Component({
@@ -20,10 +20,18 @@ proDetails:any={}
       this.productID = data['id'];
       // console.log(this.productID)
     })
-    this._getApi.viewProduct().pipe(pluck(this.productID-1)).subscribe(res=>{
-      this.proDetails=res
-      // console.log(this.proDetails)
-    })
+    // this._getApi.viewProduct().pipe(pluck(this.productID)).subscribe(res=>{
+    //   this.proDetails=res
+    //   console.log(this.proDetails)
+    // })
+
+
+this._getApi.viewProduct(this.productID).subscribe(res=>{
+// this.proDetails=res.filter(e=>e.id==this.productID)[0]
+this.proDetails=res
+console.log(this.proDetails)
+})
+
   }
 
 }
