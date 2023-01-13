@@ -13,7 +13,7 @@
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5><a routerLink="view-product/{{pro.id}}" class="text-decoration-none">{{pro.productName}}</a></h5>
+                            <h5 style="color: rgb(255, 127, 212);">{{pro.productName}}</h5>
                             <!-- Product price-->
                             <h5>${{pro.price}}</h5>
                            
@@ -21,7 +21,7 @@
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer  pt-0 border-top-0 bg-transparent">
-                        <div class="text-center m-0"><a class="btn btn-outline-dark " href="#">View options</a></div>
+                        <div class="text-center m-0"><a class="btn btn-outline-dark bg-info" routerLink="view-product/{{pro.id}}">View Details</a></div>
                     </div>
                 </div>
             </div>

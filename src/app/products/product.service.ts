@@ -32,10 +32,10 @@ export class ProductService {
     return this.http.put<ProductInterface>(baseUrl,productBody);
   }
 
-  // deleteProduct(productId):Observable<ProductInterface>{
-  //   const baseUrl = "http://localhost:3000/product"+productId;
-  //   return this.httpClient.delete<ProductInterface>(baseUrl);
-  // }
+  deleteProduct(productId):Observable<ProductInterface>{
+    const baseUrl = "http://localhost:3000/product/"+productId;
+    return this.http.delete<ProductInterface>(baseUrl);
+  }
 
   searchCategoryProduct():Observable<ProductInterface>{
     const baseUrl = "http://localhost:3000/product";

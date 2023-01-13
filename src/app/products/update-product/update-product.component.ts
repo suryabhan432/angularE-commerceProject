@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from '../product.service';
 
 @Component({
@@ -13,7 +13,8 @@ export class UpdateProductComponent implements OnInit {
   bodyId:any={};
   productDetail:any={}
   constructor(private activatedRoute: ActivatedRoute,
-      private _productService:ProductService
+      private _productService:ProductService,
+      router:Router
     ) { }
 
   ngOnInit(): void {
@@ -27,11 +28,13 @@ export class UpdateProductComponent implements OnInit {
     })
     // this._productService.updateProduct(this.productID,)
 
+
+
   }
 
 
 
-  onUpdate(form:NgForm){
+  onUpdate=function(form:NgForm){
     let updatedProduct={
       id:this.productID,
       categoryId:parseInt(form.value.categoryId),
@@ -49,7 +52,7 @@ export class UpdateProductComponent implements OnInit {
       // this.productDetail=result
       console.log(result)
     })
-
+    window.location.href="/";
    }
 
 }

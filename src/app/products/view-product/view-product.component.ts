@@ -34,4 +34,10 @@ console.log(this.proDetails)
 
   }
 
+  onDeleteProduct(){
+    this._getApi.deleteProduct(this.productID).subscribe(result=>{
+      console.log(result)
+    })
+  }
+
 }

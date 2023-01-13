@@ -26,10 +26,10 @@
                 </div>
             </div>
             <div class="col-sm-2">
-                <a href="update-product/{{proDetails.id}}" class="btn btn-success">Update</a>
+                <a routerLink="/update-product/{{proDetails.id}}" class="btn btn-success">Update</a>
             </div>
             <div class="col-sm-2">
-                <button class="btn btn-danger">Delete</button>
+                <a  href="" class="btn btn-danger" (click)="onDeleteProduct()">Delete</a>
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ProductsRoutingModule } from './products-routing.module';
 import { ProductsComponent } from './products.component';
 import { AddProductComponent } from './add-product/add-product.component';
-// import { ViewProductComponent } from './view-product/view-product.component';
+import { ViewProductComponent } from './view-product/view-product.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
 import { DeleteProductComponent } from './delete-product/delete-product.component';
 import { ViewAllProductComponent } from './view-all-product/view-all-product.component';
@@ -17,7 +17,7 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     ProductsComponent,
     AddProductComponent,
-    // ViewProductComponent,
+    ViewProductComponent,
     UpdateProductComponent,
     DeleteProductComponent,
     ViewAllProductComponent,
@@ -27,7 +27,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     ProductsRoutingModule,
-    FormsModule
+    FormsModule,
   ]
 })
 export class ProductsModule { }

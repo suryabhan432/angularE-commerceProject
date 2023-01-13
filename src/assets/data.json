@@ -29,77 +29,107 @@
   "product": [
     {
       "id": 1,
-      "categoryId": 4,
-      "productName": "shirt for men",
-      "description": "description here",
-      "price": 300,
-      "product_image": "http://localhost:4200/assets/a.jpg"
+      "categoryId": 5,
+      "productName": "kids toy child",
+      "description": "baby kids toy for playing",
+      "price": 100,
+      "product_image": "http://localhost:4200/assets/71TATLmT0gL._SL1500_.jpg"
     },
     {
       "id": 2,
-      "productName": "casual shirt",
-      "categoryId": 5,
-      "description": "description here",
-      "price": 300,
-      "is_available": true,
-      "product_image": "http://localhost:4200/assets/b.jpg",
-      "rating": 4,
-      "review": 150,
-      "vendor_name": "abc shop",
-      "waranty": 1
-    },
-    {
-      "id": 3,
-      "productName": "casual shirt surya",
-      "categoryId": 2,
-      "description": "description here",
-      "price": 300,
-      "is_available": true,
-      "product_image": "http://localhost:4200/assets/c.jpg",
-      "rating": 4,
-      "review": 150,
-      "vendor_name": "abc shop",
-      "waranty": 1
-    },
-    {
-      "id": 4,
-      "categoryId": 3,
-      "productName": "shirt for women",
-      "description": "specialy ladies shirt",
-      "price": 250,
-      "product_image": "http://localhost:4200/assets/c.jpg"
-    },
-    {
-      "id": 5,
-      "categoryId": 2,
-      "productName": "party shirt for men",
-      "description": "this shirt you can wear when you ready for party",
-      "price": 400,
-      "product_image": "http://localhost:4200/assets/d.jpg"
-    },
-    {
-      "id": 6,
       "categoryId": 1,
-      "productName": "dance shirtsssssssss",
-      "description": "description here",
-      "price": 300,
-      "product_image": "http://localhost:4200/assets/e.jpg"
-    },
-    {
-      "id": 80,
-      "categoryId": null,
-      "productName": "mobile phone",
+      "productName": "mobile",
       "description": "mobile lelo",
       "price": 3434,
       "product_image": "http://localhost:4200/assets/mobile.jpg"
     },
     {
-      "id": 123,
-      "categoryId": 5,
-      "productName": "kids toy child",
-      "description": "baby kids toy for playing",
+      "id": 125,
+      "categoryId": 1,
+      "productName": "tv",
+      "description": "this is best tv",
+      "price": 300,
+      "product_image": "http://localhost:4200/assets/OnePlus-TV.jpg"
+    },
+    {
+      "id": 126,
+      "categoryId": 1,
+      "productName": "Laptop",
+      "description": "laptop",
+      "price": 1000,
+      "product_image": "http://localhost:4200/assets/laptop.jpg"
+    },
+    {
+      "id": 127,
+      "categoryId": 2,
+      "productName": "shirt for men",
+      "description": "very good shirt",
       "price": 100,
-      "product_image": "http://localhost:4200/assets/Lb2VrF.jpg"
+      "product_image": "http://localhost:4200/assets/shirt.jpg"
+    },
+    {
+      "id": 128,
+      "categoryId": 2,
+      "productName": "T-shirt for men",
+      "description": "very good t-shirt for daily use",
+      "price": 100,
+      "product_image": "http://localhost:4200/assets/t-shirt.jpg"
+    },
+    {
+      "id": 129,
+      "categoryId": 3,
+      "productName": "girl dress",
+      "description": "very good dress",
+      "price": 102,
+      "product_image": "http://localhost:4200/assets/girl dress.jfif"
+    },
+    {
+      "id": 130,
+      "categoryId": 3,
+      "productName": "baby girl dress",
+      "description": "very good baby girl dress",
+      "price": 50,
+      "product_image": "http://localhost:4200/assets/baby dress.jpg"
+    },
+    {
+      "id": 131,
+      "categoryId": 4,
+      "productName": "chair",
+      "description": "very good chair",
+      "price": 40,
+      "product_image": "http://localhost:4200/assets/chair.jfif"
+    },
+    {
+      "id": 132,
+      "categoryId": 4,
+      "productName": "sofa",
+      "description": "peacefull sofa",
+      "price": 100,
+      "product_image": "http://localhost:4200/assets/sofa.jfif"
+    },
+    {
+      "id": 133,
+      "categoryId": 4,
+      "productName": "dinning table",
+      "description": "very good dinning table",
+      "price": 130,
+      "product_image": "http://localhost:4200/assets/dining table.jfif"
+    },
+    {
+      "id": 134,
+      "categoryId": 2,
+      "productName": "men's pant",
+      "description": "good pant",
+      "price": 103,
+      "product_image": "http://localhost:4200/assets/man's_pant.jpg"
+    },
+    {
+      "id": 135,
+      "categoryId": 5,
+      "productName": "bike for kids",
+      "description": "very interesting toy for kids",
+      "price": 30,
+      "product_image": "http://localhost:4200/assets/bike.jfif"
     }
   ],
   "comments": [

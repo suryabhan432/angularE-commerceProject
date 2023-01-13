@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from '@angular/forms';
+import { Router } from '@angular/router';
 import { ProductService } from '../product.service';
 
 @Component({
@@ -9,9 +10,16 @@ import { ProductService } from '../product.service';
 })
 export class AddProductComponent implements OnInit {
 
-  constructor(private _productService:ProductService) { }
+  constructor(private _productService:ProductService,
+    router:Router
+    ) { }
+    totaldata:any={}
 
   ngOnInit(): void {
+    this._productService.viewAllProducts().subscribe(data=>{
+      this.totaldata=data[data.length-1].id          //find the id of last product added in data.json file
+      // console.log("hello",this.totaldata)
+    })
   }
   c:any="";
   onSubmit(form:NgForm){
@@ -20,7 +28,7 @@ export class AddProductComponent implements OnInit {
 
 
     let newProduct = {
-      id:123,
+      id:this.totaldata+1,
       categoryId:parseInt(form.value.categoryId),
       productName:form.value.productName,
       description:form.value.description,
@@ -31,6 +39,8 @@ export class AddProductComponent implements OnInit {
     this._productService.createProduct(newProduct).subscribe(res=>{
       console.log(res)
     })
+
+    window.location.href="/";
   }
 
 }
